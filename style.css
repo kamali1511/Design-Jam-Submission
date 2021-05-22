@@ -114,4 +114,11 @@ body
 
 #more {display: none;}
 
+footer
+{
+  align-content: center;
+  background-color: black;
+  color: white;
+}
+
 
