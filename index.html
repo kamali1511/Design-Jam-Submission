@@ -16,10 +16,10 @@
 		<h2 class="logo">Rowan Atkinson</h2>
 	</div>
   <div class="grid-flex" style="padding-top: 50px; padding-left: 30px; padding-right: 30px;">
-    <div class="col col-image" style="background-image: url(images/bean.jpg);">
+    <div data-aos="fade-right" class="col col-image" style="background-image: url(images/bean.jpg);">
     </div>
     <div class="col col-text" style="padding-top: 50px;">
-      <div class="Aligner-item">
+      <div data-aos="fade-left" class="Aligner-item">
         <p style="font-size: 20px; text-align: center;"><strong>Rowan Aktinson</strong>, in full Rowan Sebastian Atkinson is an incredible british actor, screenwriter and comedian. He is best known for the sitcoms Mr. Bean and Blackladder. He has also been listed by <em>The Observer</em> as one of the funniest actors and british comedy and amongst the top 50 comedians ever.
         </p>
       </div>
@@ -29,21 +29,21 @@
   <img style="width: 320px; height: 300px;" src="http://2017.igem.org/wiki/images/7/7e/T--HZAU-China--arrow.gif">
 </div>
   <section class="container">
-  	<div class="sec1">
+  	<div data-aos="zoom-in" class="sec1">
   	<h1>Early Life & Education</h1>
   	<p>Atkinson was brought up Anglican, and was educated at Durham Choristers School, St. Bees School, and Newcastle University. In 1975, he continued for the degree of MSc in Electrical Engineering at <strong>The Queen's College, Oxford</strong>, the same college his father matriculated at in 1935, which made Atkinson an Honorary Fellow in 2006. First achieving notice at the Edinburgh Festival Fringe in 1976, while at Oxford, he also acted and performed early sketches for the Oxford University Dramatic Society , the Oxford Revue and the Experimental Theatre Club, meeting writer Richard Curtis and composer Howard Goodall, with whom he would continue to collaborate during his career.</p>
     </div>
   </section>
 
   <section class="container">
-  	<div class="sec1">
+  	<div data-aos="zoom-in" class="sec1">
   	<h1>Radio</h1>
   	<p>Atkinson had starred in a series of comedy shows for <strong>BBC Radio 3</strong> in 1978 called The <strong>Atkinson People</strong>. It consisted of a series of satirical interviews with fictional great men, who were played by Atkinson himself. The series was written by Atkinson and Richard Curtis, and produced by Griff Rhys Jones.</p>
     </div>
   </section>
 
   <section class="container">
-  	<div class="sec1">
+  	<div data-aos="zoom-in" class="sec1">
   	<h1>Television</h1>
   	<p>After university, Atkinson toured with Angus Deayton as his straight man in an act that was eventually filmed for a television show. After the success of the show, he did a one-off pilot for London Weekend Television in 1979 called Canned Laughter. Atkinson then went on to do <strong>Not the Nine O'Clock News</strong> for the <strong>BBC</strong>, produced by his friend John Lloyd. He starred on the show along with Pamela Stephenson, Griff Rhys Jones and Mel Smith, and was one of the main sketch writers. <br></p>
     <details>
@@ -60,7 +60,7 @@ He also starred in a comedy spoof of Doctor Who as the Doctor, for a red nose da
   </section>
 
   <section class="container">
-    <div class="sec1">
+    <div data-aos="zoom-in" class="sec1">
       <br><br>
     <h1>Films</h1>
     <p>Atkinson's film career began in 1983 with a supporting part in the unofficial James Bond movie <strong>Never Say Never Again</strong> and a leading role in Dead on Time with Nigel Hawthorne. He appeared in former Not the Nine O'Clock News co-star Mel Smith's directorial debut The Tall Guy in 1989. He also appeared alongside Anjelica Huston and Mai Zetterling in Roald Dahl's The Witches in 1990. In 1993 he played the part of Dexter Hayman in Hot Shots! Part Deux, a parody of Rambo III, starring Charlie Sheen. <br>
@@ -80,7 +80,7 @@ He also starred in a comedy spoof of Doctor Who as the Doctor, for a red nose da
     <br><br>
     <h1>Interesting Facts</h1><br><br>
   <div class="card-deck">
-        <div class="card">
+        <div data-aos="zoom-in" class="card">
             <img style="height: 200px" class="card-img-top" src="images/fact1.jpg" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Expensive Cars</h4>
@@ -91,7 +91,7 @@ He also starred in a comedy spoof of Doctor Who as the Doctor, for a red nose da
             </div>
         </div>
   
-        <div class="card">
+        <div data-aos="zoom-in" class="card">
             <img style="height: 200px" class="card-img-top" src="images/fact2.gif">
             <div class="card-block">
                 <h4 class="card-title">Mr.White, Mr.Cauliflower</h4>
@@ -102,7 +102,7 @@ He also starred in a comedy spoof of Doctor Who as the Doctor, for a red nose da
             </div>
         </div>
   
-        <div class="card">
+        <div data-aos="zoom-in" class="card">
             <img style="height: 200px" class="card-img-top" src="images/fact3.jpg">
             <div class="card-block">
                 <h4 class="card-title">With James Bond</h4>
@@ -134,6 +134,23 @@ He also starred in a comedy spoof of Doctor Who as the Doctor, for a red nose da
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous">
     </script>
+
+    <!--Animation Script-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>   
+   AOS.init(); 
+</script>
+
+<script type="text/javascript">
+  AOS.init({
+   easing: 'ease-out-back',
+   duration: 800,
+   delay: 300,
+   once: true,
+   disable: 'mobile'
+});
+</script>
 
 </body>
 </html>
