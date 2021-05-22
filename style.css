@@ -1,0 +1,117 @@
+
+body
+{
+  background-color: #f8f8ff;
+}
+.logo
+{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.wrapper h2{
+	color: transparent;
+	background-image: linear-gradient(to left, #2ecc71,#3498db, #9b59b6, #f39c12);
+	-webkit-background-clip: text;
+	animation: animate 8s linear infinite;
+	-webkit-background-size:500%;
+	background-size: 500%;
+}
+
+@keyframes animate{
+	0%{
+		background-position: 0 100%;
+	}
+	50%{
+		background-position: 100% 0;
+	}
+	100%{
+		background-position: 0 100%
+	}
+}
+
+.col-text {
+  height:20em;
+}
+.grid-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  flex-direction: row; 
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+}
+.col {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.col-left {
+  -webkit-box-ordinal-group:-1;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+}
+.col-text{
+  display: flex;
+  padding-left: 5px;
+  padding-right: 5px;
+  justify-content: center;
+}
+.Aligner-item {
+  width: 60%;
+}
+.col-image {
+  background-size: cover;
+  background-position:center center;
+}
+
+@media (max-width: 640px) {
+  .grid-flex {
+    height: 40em;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column; 
+   }
+  .col {
+    order:vertical;
+  }
+  .col-left {
+    -webkit-box-ordinal-group:0;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+ 
+  .Aligner-item {
+    width: 90%;
+  }
+}
+
+.sec1 h1
+{
+	text-align: center;
+	padding-top: 40px;
+	font-weight: bold;
+}
+
+.sec1 p
+{
+	padding-top: 30px; 
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+}
+
+#more {display: none;}
+
+
