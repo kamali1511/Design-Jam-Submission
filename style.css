@@ -114,6 +114,11 @@ body
 
 #more {display: none;}
 
+strong
+{
+  color: blue;
+}
+
 footer
 {
   align-content: center;
