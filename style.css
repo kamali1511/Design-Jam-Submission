@@ -119,6 +119,27 @@ strong
   color: #007bff;
 }
 
+.end {
+
+        background-repeat: no-repeat;
+ 
+
+    }
+
+@media screen and (max-width: 490px){
+
+    .end {
+
+        background-image : url("images/covid.png");
+
+        background-size : cover;
+
+        height : 100%;
+
+    }
+
+}
+
 footer
 {
   align-content: center;
